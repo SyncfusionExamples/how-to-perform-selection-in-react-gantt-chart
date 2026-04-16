@@ -1,13 +1,46 @@
-# How to Perform Selection in React Gantt Chart
+# React Gantt Chart Selection Example
 
-A quick start react project that allows you to perform selection in the React Gantt Chart component of Syncfusion. It also includes the code example to select one or more rows and cells using the built-in properties of React Gantt Chart. 
+A small React application demonstrating row and cell selection in the Syncfusion React Gantt Chart (`@syncfusion/ej2-react-gantt`).
 
-Documentation: https://ej2.syncfusion.com/react/documentation/gantt/selection/
+## Overview
 
-Online examples: https://ej2.syncfusion.com/react/demos/#/material/gantt/selection
+This sample configures `GanttComponent` selection behavior with sample task data. It shows programmatic row selection, selection prevention for specific rows or cells, and Syncfusion selection settings.
 
-## Project prerequisites
-Make sure that you have the latest versions of NodeJS and visual studio code in your machine before starting to work on this project.
+## Project files
 
-### How to run this application?
-To run this application, you need to clone the `how-to-perform-selection-in-react-gantt-chart` repository and then open it in Visual Studio Code. Now, simply install all the necessary react packages into your current project using the npm install command and run your project using the npm start command.
+- `src/App.tsx` – Gantt setup and selection logic.
+- `src/data.js` – Sample task data with nested subtasks.
+- `src/App.css` – Syncfusion Material theme import.
+
+## Features
+
+- Multiple row and cell selection
+- Programmatic `selectionModule.selectRow(3)`
+- Prevent selection for `TaskID === 2`
+- Toggle-enabled selection mode
+
+## Run
+
+1. `npm install`
+2. `npm start`
+3. Open `http://localhost:3000`
+
+## Dependencies
+
+- `react`
+- `react-dom`
+- `react-scripts`
+- `typescript`
+- `@syncfusion/ej2-react-gantt`
+- `@syncfusion/ej2-react-buttons`
+- `@syncfusion/ej2-react-navigations`
+
+## Notes
+
+- Theme is loaded via `src/App.css` CDN import.
+- Disable selection with `allowSelection={false}` on `GanttComponent`.
+
+## Documentation
+
+- https://ej2.syncfusion.com/react/documentation/gantt/selection/
+- https://ej2.syncfusion.com/react/demos/#/material/gantt/selection
