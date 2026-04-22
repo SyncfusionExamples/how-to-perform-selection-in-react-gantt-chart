@@ -1,13 +1,46 @@
-# How to Perform Selection in React Gantt Chart
+# React Gantt Chart Selection Example
 
-A quick start react project that allows you to perform selection in the React Gantt Chart component of Syncfusion. It also includes the code example to select one or more rows and cells using the built-in properties of React Gantt Chart. 
+A React sample application demonstrating row and cell selection behavior in the Syncfusion React Gantt Chart component using `@syncfusion/ej2-react-gantt`.
 
-Documentation: https://ej2.syncfusion.com/react/documentation/gantt/selection/
+## Project Overview
 
-Online examples: https://ej2.syncfusion.com/react/demos/#/material/gantt/selection
+The sample focuses on applying selection settings to a Gantt chart that displays hierarchical task data. It demonstrates enabling row and cell selection, selecting rows through code, and preventing selection for specific tasks based on defined conditions.
 
-## Project prerequisites
-Make sure that you have the latest versions of NodeJS and visual studio code in your machine before starting to work on this project.
+## Features
 
-### How to run this application?
-To run this application, you need to clone the `how-to-perform-selection-in-react-gantt-chart` repository and then open it in Visual Studio Code. Now, simply install all the necessary react packages into your current project using the npm install command and run your project using the npm start command.
+- Row and cell selection support
+- Programmatic row selection using the Gantt selection module
+- Conditional prevention of selection for specific task records
+- Toggle-based enablement of selection behavior
+
+## Getting Started
+
+### Prerequisites
+
+- Node.js (LTS or later)
+- npm
+
+### Installation and Run
+
+Install dependencies and start the development server:
+
+```
+
+npm install
+npm start
+
+```
+
+Open `http://localhost:3000`
+
+## Notes
+
+- Selection behavior is configured using the `selectionSettings` property on `GanttComponent`.
+- Programmatic selection can be performed using methods such as `selectionModule.selectRow`.
+- Selection can be disabled entirely by setting `allowSelection={false}`.
+- Theme styles are imported through `src/App.css` to apply a Syncfusion Material theme.
+
+## Documentation
+
+- Selection documentation: https://ej2.syncfusion.com/react/documentation/gantt/selection/
+- Online demo: https://ej2.syncfusion.com/react/demos/#/material/gantt/selection
