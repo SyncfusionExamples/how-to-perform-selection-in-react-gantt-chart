@@ -1,6 +1,6 @@
 # React Gantt Chart Selection Example
 
-A React sample application demonstrating row and cell selection behavior in the Syncfusion React Gantt Chart component using `@syncfusion/ej2-react-gantt`.
+A React sample application demonstrating row and cell selection behavior in the [React Gantt Chart](https://www.syncfusion.com/react-components/react-gantt-chart) component using `@syncfusion/ej2-react-gantt`.
 
 ## Project Overview
 
@@ -44,3 +44,11 @@ Open `http://localhost:3000`
 
 - Selection documentation: https://ej2.syncfusion.com/react/documentation/gantt/selection/
 - Online demo: https://ej2.syncfusion.com/react/demos/#/material/gantt/selection
+
+## Related Links
+
+- [Explore React Gantt Chart](https://www.syncfusion.com/react-components/react-gantt-chart)
+- [Gantt Chart Feature Overview](https://ej2.syncfusion.com/react/documentation/gantt/overview)
+- [React Gantt Chart Getting Started Guide](https://ej2.syncfusion.com/react/documentation/gantt/getting-started)
+- [React Gantt API Documentation](https://ej2.syncfusion.com/react/documentation/api/gantt/)
+- [React Gantt Chart Live Demos and Examples](https://ej2.syncfusion.com/react/demos/#/tailwind3/gantt/selection)
